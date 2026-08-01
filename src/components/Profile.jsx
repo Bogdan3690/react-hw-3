@@ -3,6 +3,7 @@ const Profile = ( {user} ) => {
         <div class="profile">
   <div class="description">
     <img
+    width={150}
       src={user.avatar}
       alt={user.name}
       class="avatar"
