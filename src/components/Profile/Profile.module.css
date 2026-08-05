@@ -1,0 +1,42 @@
+.profile{
+    padding: 40px;
+    background-color: rgba(70, 70, 70, 0.085);
+    width: 250px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.username{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.tag{
+    font-size: 12px;
+}
+
+.location{
+    font-size: 12px;
+}
+
+.stats{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.stats li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label{
+    color: grey;
+}
+
+.quantity{
+    font-weight: 600;
+}

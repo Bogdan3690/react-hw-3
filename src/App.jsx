@@ -2,9 +2,9 @@
 import './App.css'
 import FriendList from './components/friend/FriendList'
 import FriendListItem from './components/friend/FriendListItem'
-import Profile from './components/Profile'
+import Profile from './components/Profile/Profile'
 import Statistics from './components/Statistics'
-import TransactionHistory from './components/TransactionHistory'
+import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 
 import user from "./data/profile.json"
 import stats from "./data/statistics.json"
